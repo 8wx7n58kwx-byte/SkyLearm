@@ -2,8 +2,7 @@
   'use strict';
 
   // 'port/8010' is rewritten to the real proxy path by deploy_website.
-  const RAW_API = 'port/8010';
-  const API = RAW_API.startsWith('__') ? 'http://localhost:8010' : ('/' + RAW_API.replace(/^\/+/, ''));
+  const API = 'http://localhost:8010';
 
   // Token kept in memory only (this is a single-page app; no full navigation
   // happens after login, so we never need to persist it across a reload --
