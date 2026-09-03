@@ -2,7 +2,7 @@
   'use strict';
 
   // 'port/8010' is rewritten to the real proxy path by deploy_website.
-  const API = 'http://localhost:8010';
+  const API = 'https://skylearm.onrender.com';
 
   // Token kept in memory only (this is a single-page app; no full navigation
   // happens after login, so we never need to persist it across a reload --
