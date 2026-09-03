@@ -1,0 +1,15 @@
+# Runtime and secret files
+data.db
+.session_secret
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# User-generated uploads and local archives
+uploads/
+*.zip
